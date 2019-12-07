@@ -1,12 +1,11 @@
 #include<stdio.h>
 main()
 {
-	int a,b,c;
-	printf("\n enter two values");
-	scanf("%d%d",&a,&b);
-	printf("\n Before swap a=%d\t b=%d",a,b);
-	a=a+b;
-	b=b-a;
-	a=a-b;
-	printf("\n After swaping a=%d \t b=%d",a,b);
+	int n;
+	printf("\n enter a value :");
+	scanf("%d",&n);
+	if(n%5==0 && n%11==0)
+	printf("\n n is divisible");
+	else
+	printf("\n n is not divisible");
 }

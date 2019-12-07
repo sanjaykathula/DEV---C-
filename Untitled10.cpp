@@ -1,15 +1,19 @@
 #include<stdio.h>
 main()
 {
-	int n;
-	printf("\n enter a number :");
-	scanf("%d",&n);
-	if (n%2==0)
+	int ch;
+	printf("\n enter a alpha");
+	scanf("%c",&ch);
+	printf("\n 1.Vowel \n 2.Consonant");
+	printf("\n enter your choice");
+	scanf("%c",&ch);
+	switch(ch)
 	{
-		printf("\n %d is Even",n);
-	}
-	else
-	{
-		printf("\n %d is Odd",n);
+		case 'a':printf("\n vowel :%d",a);break;
+    	case 'e':printf("\n vowel :%d",e);break;
+		case 'i':printf("\n vowel :%d",i);break;
+		case 'o':printf("\n vowel :%d",o);break;
+		case 'u':printf("\n vowel :%d",u);break;
+		default:printf("\n is invalid ");                
 	}
 }

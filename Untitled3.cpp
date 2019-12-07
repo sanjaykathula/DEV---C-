@@ -1,12 +1,13 @@
 #include<stdio.h>
 main()
 {
-	int m,p,c,tot;
-	float avg;
-	printf("\n enter the marks in maths,phy,chem");
-	scanf("%d%d%d",&m,&p,&c);
-	tot=m+p+c;
-	avg=(float)tot/3;
-	printf("\n Total marks %d",tot);
-	printf("\n Average marks %f",avg);
+	int a,b;
+	printf("\n enter two values :");
+	scanf("%d%d",&a,&b);
+    if(b>a)
+	printf("\n a is big",a);
+	else if(b>a)
+	printf("\n b is big");
+	else
+	printf("\n both are equal");
 }

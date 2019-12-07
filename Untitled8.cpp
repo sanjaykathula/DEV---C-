@@ -1,8 +1,17 @@
 #include<stdio.h>
 main()
 {
-	float avg=65.123456;
-	printf("\"hello world\"");
-	printf("gitam\'s college");
-	printf("\n Average:%.3f",avg);
+	int n;
+	printf("\n enter a value");
+	scanf("%d",&n);
+	if(n>=0 && n<=9)
+	printf("\n 1 digit");
+	if(n>=10 && n<=99)
+	printf("\n 2 digit");
+	if(n>=100 && n<=999)
+	printf("\n 3 digit");
+	if(n>=1000 && n<=9999)
+	printf("\n 4 digit");
+	if(n>=10000 && n<=99999)
+	printf("\n 5 digit");
 }
